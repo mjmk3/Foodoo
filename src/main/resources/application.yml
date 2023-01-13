@@ -16,6 +16,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+        format-sql: true
   session:
     jdbc:
       initialize-schema: always
